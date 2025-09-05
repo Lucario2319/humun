@@ -35,10 +35,10 @@ const DirectorMsg = () => {
                 Dear Future Diplomats and Global Leaders,
               </p>
               <p>
-                It is with great pleasure that I welcome you to our Annual Model United Nations Conference 2025. This year's conference promises to be our most ambitious yet, bringing together brilliant minds from universities across the region to tackle the world's most pressing challenges.
+                {"It is with great pleasure that I welcome you to our Annual Model United Nations Conference 2025. This year's conference promises to be our most ambitious yet, bringing together brilliant minds from universities across the region to tackle the world's most pressing challenges."}
               </p>
               <p>
-                Our carefully curated committees will provide you with authentic diplomatic experiences, from crisis management to sustainable development. You'll engage in meaningful debate, forge lasting friendships, and develop the critical thinking skills essential for tomorrow's leaders.
+                {"Our carefully curated committees will provide you with authentic diplomatic experiences, from crisis management to sustainable development. You'll engage in meaningful debate, forge lasting friendships, and develop the critical thinking skills essential for tomorrow's leaders."}
               </p>
               <p className="text-gray-900 font-semibold">
                 Join us in this transformative journey of diplomatic excellence and global citizenship.
@@ -47,7 +47,7 @@ const DirectorMsg = () => {
             
             <div className="border-l-4 border-blue-500 pl-6 mb-8">
               <p className="text-gray-700 italic text-lg">
-                "Model UN isn't just about debate—it's about understanding our interconnected world and our role in shaping its future."
+                {"\"Model UN isn't just about debate—it's about understanding our interconnected world and our role in shaping its future.\""}
               </p>
             </div>
             
