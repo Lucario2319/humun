@@ -23,7 +23,7 @@ const DirectorMsg = () => {
           {/* Content */}
           <div>
             <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium mb-6">
-              Message from Director
+              Message from the President
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -52,9 +52,9 @@ const DirectorMsg = () => {
             </div>
             
             <div>
-              <p className="font-semibold text-gray-900 text-lg">Dr. Sarah Johnson</p>
-              <p className="text-blue-600 font-medium">Conference Director</p>
-              <p className="text-gray-600">Department of International Relations</p>
+              <p className="font-semibold text-gray-900 text-lg">Mahrukh Usmani</p>
+              <p className="text-blue-600 font-medium">President HUMUN VII</p>
+              <p className="text-gray-600">Social Development and Policy, Class of 2026</p>
             </div>
           </div>
         </div>

@@ -15,8 +15,7 @@ const Navbar = () => {
               <Globe className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">HU MUN</h1>
-              <p className="text-xs text-gray-600">Annual Conference 2025</p>
+              <h1 className="text-xl font-bold text-gray-900">HUMUN VII</h1>
             </div>
           </div>
           
@@ -25,8 +24,8 @@ const Navbar = () => {
             <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
             <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a>
             <a href="#committees" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Committees</a>
-            <a href="#schedule" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Schedule</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</a>
+            <a href="#schedule" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Meet the Team</a>
+            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact Us</a>
             <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors transform hover:scale-105">
               Register Now
             </button>
@@ -50,8 +49,8 @@ const Navbar = () => {
               <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
               <a href="#about" className="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
               <a href="#committees" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Committees</a>
-              <a href="#schedule" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Schedule</a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact</a>
+              <a href="#schedule" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Meet the Team</a>
+              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact Us</a>
               <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
                 Register Now
               </button>

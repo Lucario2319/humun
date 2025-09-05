@@ -23,8 +23,7 @@ const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
-            HU MUN
-            <span className="block text-3xl md:text-4xl mt-2 text-blue-200">Annual Conference 2025</span>
+            HU MUN VII
           </h1>
           
           {/* Subtitle */}
