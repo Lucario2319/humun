@@ -28,7 +28,7 @@ const HeroSection = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Shaping Tomorrow's Leaders Through Diplomatic Excellence
+            {"Shaping Tomorrow's Leaders Through Diplomatic Excellence"}
           </p>
           
           {/* CTA Buttons */}
