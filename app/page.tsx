@@ -7,12 +7,11 @@ import QuickLinks from '@/components/QuickLinks';
 // Main App Component
 const App = () => {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
+    <>
       <HeroSection />
       <DirectorMessage />
       <QuickLinks />
-    </div>
+    </>
   );
 };
 

@@ -1,9 +1,21 @@
 "use client";
-import { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+
+import { useState } from "react";
+import { Menu, X, Globe } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // ✅ get current route
+
+  const links = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/committees", label: "Committees" },
+    { href: "/team", label: "Meet the Team" },
+    { href: "/contact", label: "Contact Us" },
+  ];
 
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
@@ -14,26 +26,32 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">HUMUN VII</h1>
-            </div>
+            <h1 className="text-xl font-bold text-gray-900">HUMUN VII</h1>
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a>
-            <a href="#committees" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Committees</a>
-            <a href="#schedule" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Meet the Team</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact Us</a>
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`font-medium transition-colors ${
+                  pathname === link.href
+                    ? "text-blue-600"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
             <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors transform hover:scale-105">
               Register Now
             </button>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button 
+            <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-blue-600"
             >
@@ -41,16 +59,25 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        
+
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Home</a>
-              <a href="#about" className="block px-3 py-2 text-gray-700 hover:text-blue-600">About</a>
-              <a href="#committees" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Committees</a>
-              <a href="#schedule" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Meet the Team</a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">Contact Us</a>
+              {links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`block px-3 py-2 rounded-md font-medium ${
+                    pathname === link.href
+                      ? "text-blue-600"
+                      : "text-gray-700 hover:text-blue-600"
+                  }`}
+                  onClick={() => setIsOpen(false)} // ✅ close menu on click
+                >
+                  {link.label}
+                </Link>
+              ))}
               <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
                 Register Now
               </button>
