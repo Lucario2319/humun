@@ -1,6 +1,7 @@
 import { COMMITTEE_DATA } from '@/constants';
 import { Committee } from '@/types';
 import { CommitteeSection } from '@/components/CommitteeSection';
+import Link from 'next/link';
 
 // Main Committees Page Component
 const CommitteesPage: React.FC = () => {
@@ -21,7 +22,7 @@ const CommitteesPage: React.FC = () => {
         {/* Page Header */}
         <header className="text-center space-y-4">
           <h1 className="text-5xl font-bold text-gray-900 tracking-tight">
-            HUmun <span className="text-purple-600">Committees</span>
+            HUMUN VII <span className="text-purple-600">Committees</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Join prestigious committees and engage in diplomatic discussions that shape our world. 
@@ -44,11 +45,13 @@ const CommitteesPage: React.FC = () => {
         <footer className="text-center space-y-4 pt-12 border-t border-gray-200">
           <h3 className="text-2xl font-semibold text-gray-900">Ready to Make Your Mark?</h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Choose your committee and prepare to engage in diplomatic excellence at HUmun
+            Choose your committee and prepare to engage in diplomatic excellence at HUMUN
           </p>
-          <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
-            Register Now
-          </button>
+          <Link href="/register">
+            <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+              Register Now
+            </button>
+          </Link>
         </footer>
       </div>
     </div>
