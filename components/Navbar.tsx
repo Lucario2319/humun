@@ -26,7 +26,11 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-xl font-bold text-gray-900">HUMUN VII</h1>
+            <div className="flex flex-col leading-none">
+              <h1 className="text-xl font-bold text-gray-900">HUMUN</h1>
+              <p className="text-xs italic text-gray-500 -mt-1">Seventh Edition</p>
+            </div>
+            {/* <h1 className="text-xl font-bold text-gray-900">HUMUN</h1> */}
           </div>
 
           {/* Desktop Navigation */}
@@ -44,9 +48,11 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors transform hover:scale-105">
-              Register Now
-            </button>
+            <Link href="/register">
+              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors transform hover:scale-105">
+                Register Now
+              </button>
+            </Link>  
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,9 +84,11 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
-                Register Now
-              </button>
+              <Link href="/register" onClick={() => setIsOpen(false)}>
+                <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                  Register Now
+                </button>
+              </Link>
             </div>
           </div>
         )}

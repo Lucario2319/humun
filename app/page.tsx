@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/Hero';
 import DirectorMessage from '@/components/DirectorMsg';
 import QuickLinks from '@/components/QuickLinks';

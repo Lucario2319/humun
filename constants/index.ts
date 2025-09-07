@@ -6,28 +6,28 @@ export const QUICK_LINKS: CommitteeInfoLink[] = [
         title: "Committee List",
         description: "Explore our 15 diverse committees covering global issues",
         icon: Globe,
-        href: "#committees",
+        href: "committees",
         color: "blue"
     },
     {
         title: "Schedule",
         description: "Complete timeline of events and sessions",
         icon: Calendar,
-        href: "#schedule", 
+        href: "schedule", 
         color: "purple"
     },
     {
         title: "Registration",
         description: "Secure your spot in this premier conference",
         icon: Users,
-        href: "#register",
+        href: "register",
         color: "green"
     },
     {
         title: "Resources",
         description: "Study guides, position papers, and prep materials",
         icon: Award,
-        href: "#resources",
+        href: "resources",
         color: "orange"
     }
   ];

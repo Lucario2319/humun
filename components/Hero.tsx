@@ -1,4 +1,5 @@
 import { Calendar, ChevronRight } from 'lucide-react';
+import Link from "next/link";
 
 // Hero Section Component
 const HeroSection = () => {
@@ -23,7 +24,7 @@ const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
-            HU MUN VII
+            HU Model United Nations VII
           </h1>
           
           {/* Subtitle */}
@@ -33,13 +34,17 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center">
-              Register Now
-              <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/20 transition-all transform hover:scale-105">
-              Learn More
-            </button>
+            <Link href="register">
+              <button className="group bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center">
+                Register Now
+                <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
+            <Link href="about">
+              <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/20 transition-all transform hover:scale-105">
+                Learn More
+              </button>
+            </Link>
           </div>
           
           {/* Stats */}
