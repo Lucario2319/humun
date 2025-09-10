@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col leading-none">
               <h1 className="text-xl font-bold text-gray-900">HUMUN</h1>
-              <p className="text-xs italic text-gray-500 -mt-1">Seventh Edition</p>
+              <p className="text-xs italic text-gray-500 -mt-1">Eighth Edition</p>
             </div>
             {/* <h1 className="text-xl font-bold text-gray-900">HUMUN</h1> */}
           </div>

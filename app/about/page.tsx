@@ -32,7 +32,7 @@ export default function AboutPage() {
 
               <div className="bg-gradient-to-r from-purple-50 to-blue-50 border-l-4 border-purple-600 p-6 rounded-r-lg mb-8">
                 <p className="text-lg font-medium text-gray-800">
-                  <strong>HUMUN VII</strong> is set to be the biggest Model United Nations conference in {"Karachi's"} history. With the theme of <em>Legacy, Opportunity, and Equity</em>, we are setting the stage for an unforgettable conference that honors our journey while opening doors to new possibilities for all delegates.
+                  <strong>HUMUN VIII</strong> is set to be the biggest Model United Nations conference in {"Karachi's"} history. With the theme of <em>Legacy, Opportunity, and Equity</em>, we are setting the stage for an unforgettable conference that honors our journey while opening doors to new possibilities for all delegates.
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
             Be part of {"Karachi's"} largest and most prestigious Model United Nations conference
           </p>
           <button className="bg-purple-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-600 transition-colors duration-200 shadow-lg">
-            Register for HUMUN VII
+            Register for HUMUN VIII
           </button>
         </div>
       </section>

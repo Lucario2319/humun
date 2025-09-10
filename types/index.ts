@@ -36,3 +36,11 @@ export interface CommitteeSectionProps {
   committees: Committee[];
   className?: string;
 }
+
+export interface CallToActionProps {
+  title?: string;
+  description?: string;
+  buttonText?: string;
+  buttonLink?: string;
+  className?: string;
+}
