@@ -46,89 +46,97 @@ export const COMMITTEE_DATA: Committee[] = [
     name: 'United Nations Security Council',
     description: 'Addressing global security threats and maintaining international peace',
     theme: 'Security & Conflict Resolution',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/united-nations-building-new-york-600nw-1951150365.jpg'
+    backgroundImage: '/images/unsc.jpg'
   },
   {
     id: 'disec',
     name: 'Disarmament and International Security Committee',
     description: 'Tackling nuclear proliferation and arms control challenges',
     theme: 'Security & Conflict Resolution',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/military-silhouettes-soldiers-weapons-600nw-1456164847.jpg'
+    backgroundImage: '/images/disec.jpg'
   },
   {
-    id: 'nato',
-    name: 'North Atlantic Treaty Organization',
-    description: 'Strengthening collective defense and transatlantic security',
+    id: 'specpol',
+    name: 'Special Political and Decolonization Committee',
+    description: 'Strengthening peacekeeping and decolonization efforts',
     theme: 'Security & Conflict Resolution',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/brussels-belgium-march-2018-nato-600nw-1043914836.jpg'
+    backgroundImage: '/images/specpol.jpg'
   },
-
-  // Economic & Development
-  {
-    id: 'ecosoc',
-    name: 'Economic and Social Council',
-    description: 'Promoting sustainable development and economic cooperation',
-    theme: 'Economic & Development',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/business-people-meeting-concept-handshake-600nw-1877344467.jpg'
-  },
-  {
-    id: 'g20',
-    name: 'Group of Twenty Summit',
-    description: 'Coordinating global economic policies and financial stability',
-    theme: 'Economic & Development',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/modern-city-skyline-financial-district-600nw-1456789123.jpg'
-  },
-  {
-    id: 'wto',
-    name: 'World Trade Organization',
-    description: 'Regulating international trade and resolving commercial disputes',
-    theme: 'Economic & Development',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/global-business-international-trade-container-600nw-1234567890.jpg'
-  },
-
+  
   // Human Rights & Social Issues
   {
-    id: 'unhrc',
-    name: 'UN Human Rights Council',
-    description: 'Protecting fundamental human rights and addressing violations',
+    id: 'sochum',
+    name: 'Social, Humanitarian, and Cultural Committee',
+    description: 'Addressing social, humanitarian, and cultural challenges faced by the global community. ',
     theme: 'Human Rights & Social Issues',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/diverse-hands-holding-each-other-600nw-1789456123.jpg'
+    backgroundImage: '/images/sochum.jpg'
   },
   {
-    id: 'unicef',
-    name: 'United Nations Children\'s Fund Executive Board',
-    description: 'Safeguarding children\'s rights and promoting education worldwide',
+    id: 'unwomen',
+    name: 'United Nations Entity for Gender Equality and the Empowerment of Women',
+    description: 'Dedicated to accelerating progress on gender equality and the empowerment of women and girls',
     theme: 'Human Rights & Social Issues',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/happy-children-different-ethnicities-playing-600nw-1567890123.jpg'
+    backgroundImage: '/images/unwomen.jpg'
+  },
+   // Global Crime and Legal
+  {
+    id: 'interpol',
+    name: 'International Criminal Police Organization',
+    description: 'Network for international police cooperation to combat transnational crime',
+    theme: 'Global Crime and Legal',
+    backgroundImage: '/images/interpol.jpg'
   },
   {
-    id: 'who',
-    name: 'World Health Assembly',
-    description: 'Combating global health crises and pandemic preparedness',
-    theme: 'Human Rights & Social Issues',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/medical-healthcare-global-health-concept-600nw-1678901234.jpg'
+    id: 'icj',
+    name: 'International Court of Justice',
+    description: 'Cordinating international law and resolving legal disputes between states',
+    theme: 'Global Crime and Legal',
+    backgroundImage: '/images/icj.jpg'
   },
 
-  // Environmental & Climate
+   // Economic & Development
   {
-    id: 'unep',
-    name: 'UN Environment Assembly',
-    description: 'Leading global environmental governance and climate action',
-    theme: 'Environmental & Climate',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/beautiful-green-forest-environmental-conservation-600nw-1890123456.jpg'
-  },
-  {
-    id: 'cop',
-    name: 'Conference of Parties - Climate Summit',
-    description: 'Negotiating international climate agreements and carbon policies',
-    theme: 'Environmental & Climate',
-    backgroundImage: 'https://images.shutterstock.com/image-photo/renewable-energy-wind-turbines-solar-600nw-1456789012.jpg'
-  },
-  {
-    id: 'arctic',
-    name: 'Arctic Council',
-    description: 'Addressing Arctic environmental protection and sustainable development',
-    theme: 'Environmental & Climate',
+    id: 'ecofin',
+    name: 'Economic and Financial Affairs Council',
+    description: 'Promoting sustainable development and economic cooperation in the EU',
+    theme: 'Economic & Development',
     backgroundImage: 'https://images.shutterstock.com/image-photo/arctic-landscape-polar-bears-ice-600nw-1234567123.jpg'
+  },
+  // Pakistan
+  {
+    id: 'pna',
+    name: 'Pakistan National Assembly - Prime Minister\'s Crisis Cabinet',
+    description: 'Discussing national crises and formulating strategic responses for Pakistan',
+    theme: 'Pakistan',
+    backgroundImage: '/images/pna.jpg'
+  },
+  // Crisis
+  {
+    id: 'crisis1',
+    name: 'Crisis 1',
+    description: '1917: Curtains on the Western Front',
+    theme: 'Crisis',
+    backgroundImage: '/images/crisis1.jpg'
+  },
+  {
+    id: 'crisis2',
+    name: 'Crisis 2',
+    description: 'The Naxalite Uprising : The Emergency (1965-75)',
+    theme: 'Crisis',
+    backgroundImage: '/images/crisis2.jpg'
+  },
+  {
+    id: 'crisis3',
+    name: 'Crisis 3',
+    description: 'After The War',
+    theme: 'Crisis',
+    backgroundImage: '/images/crisis3.jpg'
+  },
+  {
+    id: 'crisis4',
+    name: 'Crisis 4',
+    description: 'Neither Settler Nor Native : The 14th Amendment on Trial',
+    theme: 'Crisis',
+    backgroundImage: '/images/crisis4.jpg'
   }
 ];

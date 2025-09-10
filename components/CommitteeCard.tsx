@@ -12,7 +12,7 @@ export const CommitteeCard: React.FC<CommitteeCardProps> = ({ committee, classNa
         />
         
         {/* Purple Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-purple-800/50 to-purple-600/30" />
+        0<div className="absolute inset-0 bg-gradient-to-t from-purple-900/25 via-purple-800/25 to-purple-600/25" />
         
         {/* Content Overlay */}
         <CardContent className="absolute inset-0 flex flex-col justify-end p-6 text-white">

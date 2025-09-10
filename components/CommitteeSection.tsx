@@ -8,9 +8,6 @@ export const CommitteeSection: React.FC<CommitteeSectionProps> = ({ theme, commi
         <h2 className="text-3xl font-bold text-gray-900 border-b-2 border-purple-600 inline-block pb-2">
           {theme}
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
-          Engage in meaningful diplomatic discourse and shape global policy
-        </p>
       </div>
       <CommitteeGrid committees={committees} />
     </section>
