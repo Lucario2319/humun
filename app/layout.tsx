@@ -33,7 +33,7 @@ export default function RootLayout({
           <Navbar />
           <main className="flex-grow">{children}</main>
           <CallToAction />
-        </div>
+      </div>  
       </body>
     </html>
   );

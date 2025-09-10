@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       
       {/* Hero Section */}
-      <section className="relative text-white py-24 px-6" style={{backgroundImage: 'url(/bg_class_img.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+      <section className="relative text-white py-24 px-6" style={{backgroundImage: 'url(/bg_class_img_1.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="absolute inset-0 bg-primary-600/30"></div>
         <div className="relative max-w-5xl mx-auto text-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-6">

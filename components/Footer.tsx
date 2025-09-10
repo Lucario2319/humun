@@ -15,7 +15,7 @@ export const CallToAction: React.FC<CallToActionProps> = ({
             Choose your committee and prepare to engage in diplomatic excellence at HUMUN
         </p>
         <Link href="/register">
-            <button className="bg-primary-700 hover:bg-primary-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl cursor-pointer">
+            <button className="bg-gradient-to-r from-primary-800 to-primary-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:from-yellow-700 hover:to-yellow-900 transform hover:scale-105 cursor-pointer">
             Register Now
             </button>
         </Link>

@@ -8,9 +8,10 @@ const HeroSection = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-black/20"></div>
       <div 
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-40"
         style={{
-          backgroundImage: `radial-gradient(circle at 25% 25%, rgba(255,255,255,0.2) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.2) 0%, transparent 50%)`
+          backgroundImage: 'url(/landing_page_bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'
+          // backgroundImage: `radial-gradient(circle at 25% 25%, rgba(255,255,255,0.2) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.2) 0%, transparent 50%)`
         }}
       ></div>
       
@@ -35,7 +36,8 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="register">
-              <button className="group bg-gradient-to-r from-primary-500 to-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center">
+              {/* <button className="group bg-gradient-to-r from-primary-800 to-primary-800 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center"> */}
+              <button className="group bg-gradient-to-r from-primary-800 to-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center">
                 Register Now
                 <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
