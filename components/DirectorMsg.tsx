@@ -26,7 +26,7 @@ const DirectorMsg = () => {
               Message from the President
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Welcome to Our Premier MUN Conference
             </h2>
             
@@ -34,20 +34,27 @@ const DirectorMsg = () => {
               <p>
                 Dear Future Diplomats and Global Leaders,
               </p>
+              <br />
               <p>
-                {"It is with great pleasure that I welcome you to our Annual Model United Nations Conference 2025. This year's conference promises to be our most ambitious yet, bringing together brilliant minds from universities across the region to tackle the world's most pressing challenges."}
+                {"On behalf of the Executive Council, it is my absolute honour to welcome you to the 8th Annual Iteration of the Habib University Model United Nations (HUMUN VIII). We are delighted to host you on our campus from Friday, October 24th to Sunday, October 26th, 2025 for what promises to be an unforgettable conference."}
               </p>
+              <br />
               <p>
-                {"Our carefully curated committees will provide you with authentic diplomatic experiences, from crisis management to sustainable development. You'll engage in meaningful debate, forge lasting friendships, and develop the critical thinking skills essential for tomorrow's leaders."}
+                {"Since its inception, HUMUN has established itself as a unique space for dialogue, diplomacy, and learning in Karachi. Each year, our conference brings together students from across Pakistan to tackle some of the most urgent global challenges with creativity, courage, and collaboration. HUMUN VIII is no different: with a wide array of committees and agendas, we hope to push delegates to think critically, negotiate skillfully, and craft solutions that reflect the values of empathy, equity, and inclusivity."}
               </p>
-              <p className="text-gray-900 font-semibold">
-                Join us in this transformative journey of diplomatic excellence and global citizenship.
+              <br />
+              <p>
+                {"But HUMUN has always been more than just its committees. It is a community, a space where lifelong friendships are forged, where diverse perspectives collide, and where young voices are amplified. This year is especially historic for us, as HUMUN VIII will be led by the first-ever all-female Executive Council at a university-level MUN in Pakistan, a milestone that embodies our theme: Equity, Legacy, and Opportunity."}
+              </p>
+              <br />
+              <p>
+                {"The Executive Council and I cannot wait to host you this October. Together, let us carry forward HUMUN’s tradition of critical thought, eloquence, and community, and make this year’s conference one to remember."}
               </p>
             </div>
             
             <div className="border-l-4 border-blue-500 pl-6 mb-8">
               <p className="text-gray-700 italic text-lg">
-                {"\"Model UN isn't just about debate—it's about understanding our interconnected world and our role in shaping its future.\""}
+                {"\"Join us in this transformative journey of diplomatic excellence and global citizenship.\""}
               </p>
             </div>
             
