@@ -20,7 +20,7 @@ export default function AboutPage() {
               What is <span className="text-purple-600">HUMUN</span>
             </h2>
           {/* What is HUMUN */}
-          <div className="mb-16">
+          <div className="mb-16 text-justify">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg leading-relaxed text-gray-700 mb-6">
                 {"Habib University Model United Nations (HUMUN) is the flagship conference of the Habib Debate Union and Karachi's premier student-led debating event. Each year, HUMUN brings together hundreds of young leaders, thinkers, and change-makers to engage in rigorous debate, diplomacy, and problem-solving on some of the world's most pressing issues."}
@@ -46,7 +46,7 @@ export default function AboutPage() {
 
             
             {/* Tradition and Innovation */}
-            <div className="mb-12">
+            <div className="mb-12 text-justify">
               <p className="text-lg leading-relaxed text-gray-700 mb-4">
                 {"The story of HUMUN began in October 2017, when the Habib Debate Union hosted Habib University’s very first Model United Nations conference. What started as a small initiative soon transformed into a major event on Karachi’s debating calendar, attracting students from across the city who were eager to experience an academically rigorous and welcoming platform."}
               </p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
               Our <span className="text-blue-600">Legacy</span>
             </h2>
             
-            <div className="bg-gray-50 p-8 rounded-lg">
+            <div className="bg-gray-50 p-8 rounded-lg text-justify">
               <p className="text-lg leading-relaxed text-gray-700 mb-6">
                 In addition to hosting HUMUN, the Habib Debate Union trains and supports students throughout the year, participating in both Parliamentary Debates and Model United Nations conferences on local and international stages. Our commitment to excellence extends far beyond our annual conference.
               </p>
@@ -90,7 +90,7 @@ export default function AboutPage() {
           </div>
 
           {/* Statistics */}
-          <div className="text-center">
+          <div className="text-justify">
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-lg">
                 <div className="text-4xl font-bold text-purple-600 mb-2">1100+</div>
