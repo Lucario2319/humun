@@ -4,7 +4,7 @@ import { CommitteeInfoLink, ColorClasses, Committee } from "@/types";
 export const QUICK_LINKS: CommitteeInfoLink[] = [
     {
         title: "Committee List",
-        description: "Explore our 15 diverse committees covering global issues",
+        description: "Explore diverse committees covering global issues",
         icon: Globe,
         href: "committees",
         color: "blue"

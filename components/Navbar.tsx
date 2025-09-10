@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
             <div className="flex flex-col leading-none">
@@ -41,15 +41,15 @@ const Navbar = () => {
                 href={link.href}
                 className={`font-medium transition-colors ${
                   pathname === link.href
-                    ? "text-blue-600"
-                    : "text-gray-700 hover:text-blue-600"
+                    ? "text-primary-600"
+                    : "text-gray-700 hover:text-primary-600"
                 }`}
               >
                 {link.label}
               </Link>
             ))}
             <Link href="/register">
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors transform hover:scale-105">
+              <button className="bg-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-800 transition-colors transform hover:scale-105 cursor-pointer">
                 Register Now
               </button>
             </Link>  
@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-blue-600"
+              className="text-gray-700 hover:text-primary-600"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -76,8 +76,8 @@ const Navbar = () => {
                   href={link.href}
                   className={`block px-3 py-2 rounded-md font-medium ${
                     pathname === link.href
-                      ? "text-blue-600"
-                      : "text-gray-700 hover:text-blue-600"
+                      ? "text-primary-600"
+                      : "text-gray-700 hover:text-primary-600"
                   }`}
                   onClick={() => setIsOpen(false)} // ✅ close menu on click
                 >
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link href="/register" onClick={() => setIsOpen(false)}>
-                <button className="w-full mt-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                <button className="w-full mt-2 bg-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-800 transition-colors">
                   Register Now
                 </button>
               </Link>

@@ -22,7 +22,7 @@ const CommitteesPage: React.FC = () => {
         {/* Page Header */}
         <header className="text-center space-y-4">
           <h1 className="text-5xl font-bold text-gray-900 tracking-tight">
-            HUMUN VII <span className="text-purple-600">Committees</span>
+            HUMUN VII <span className="text-primary-700">Committees</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Join prestigious committees and engage in diplomatic discussions that shape our world. 

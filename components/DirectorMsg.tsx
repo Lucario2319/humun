@@ -30,7 +30,7 @@ const DirectorMsg = () => {
               Welcome to Our Premier MUN Conference
             </h2>
             
-            <div className="prose prose-lg text-gray-600 mb-8">
+            <div className="prose prose-lg text-gray-600 mb-8 text-justify">
               <p>
                 Dear Future Diplomats and Global Leaders,
               </p>
@@ -60,7 +60,7 @@ const DirectorMsg = () => {
             
             <div>
               <p className="font-semibold text-gray-900 text-lg">Mahrukh Usmani</p>
-              <p className="text-blue-600 font-medium">President HUMUN VII</p>
+              <p className="text-blue-600 font-medium">President HUMUN VIII</p>
               <p className="text-gray-600">Social Development and Policy, Class of 2026</p>
             </div>
           </div>

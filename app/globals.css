@@ -120,3 +120,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@theme {
+  --color-primary-50: oklch(98.5% 0.02 300);
+  --color-primary-100: oklch(95.8% 0.05 300);
+  --color-primary-200: oklch(91.2% 0.10 300);
+  --color-primary-300: oklch(84.6% 0.15 300);
+  --color-primary-400: oklch(76.8% 0.20 300);
+  --color-primary-500: oklch(68.2% 0.25 300);
+  --color-primary-600: oklch(60.5% 0.25 300);
+  --color-primary-700: oklch(54.8% 0.23 300);
+  --color-primary-800: oklch(42.3% 0.20 300); /* Matches your logo shade */
+  --color-primary-900: oklch(35.2% 0.18 300);
+  --color-primary-950: oklch(25.8% 0.15 300);
+}

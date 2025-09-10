@@ -8,7 +8,7 @@ export default function ContactPage() {
         {/* Page Header */}
         <header className="space-y-4">
           <h1 className="text-5xl font-bold text-gray-900">
-            Contact <span className="text-purple-600">Us</span>
+            Contact <span className="text-primary-700">Us</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We’d love to hear from you! Whether you have questions or need more
@@ -19,7 +19,7 @@ export default function ContactPage() {
         {/* Address */}
         <section className="space-y-4">
           <div className="flex justify-center items-center gap-2 text-lg text-gray-800 font-semibold">
-            <MapPin className="w-6 h-6 text-purple-600" />
+            <MapPin className="w-6 h-6 text-primary-700" />
             Address
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
@@ -31,7 +31,7 @@ export default function ContactPage() {
         {/* Email */}
         <section className="space-y-2">
           <div className="flex justify-center items-center gap-2 text-lg text-gray-800 font-semibold">
-            <Mail className="w-6 h-6 text-purple-600" />
+            <Mail className="w-6 h-6 text-primary-700" />
             Email
           </div>
           <p className="text-lg text-gray-600">humun@habib.edu.pk</p>
@@ -40,7 +40,7 @@ export default function ContactPage() {
         {/* Contact Numbers */}
         <section className="space-y-6">
           <div className="flex justify-center items-center gap-2 text-lg text-gray-800 font-semibold">
-            <Phone className="w-6 h-6 text-purple-600" />
+            <Phone className="w-6 h-6 text-primary-700" />
             Phone Contacts
           </div>
           <div className="grid gap-4 md:grid-cols-3 max-w-3xl mx-auto">

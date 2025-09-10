@@ -17,7 +17,7 @@ export const CommitteeCard: React.FC<CommitteeCardProps> = ({ committee, classNa
         {/* Content Overlay */}
         <CardContent className="absolute inset-0 flex flex-col justify-end p-6 text-white">
           <div className="space-y-2">
-            <h3 className="text-xl font-bold leading-tight group-hover:text-purple-200 transition-colors">
+            <h3 className="text-xl font-bold leading-tight group-hover:text-primary-200 transition-colors">
               {committee.name}
             </h3>
             <p className="text-sm text-gray-200 leading-relaxed opacity-90">

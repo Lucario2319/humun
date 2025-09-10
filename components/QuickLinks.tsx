@@ -23,19 +23,19 @@ const QuickLinks = () => {
 								href={link.href}
 								className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer border border-gray-100 hover:border-gray-200"
 							>
-								<div className={`w-16 h-16 bg-gradient-to-r ${COLOR_CLASSES[link.color as keyof typeof COLOR_CLASSES]} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+								<div className={`w-16 h-16 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
 									<Icon className="w-8 h-8 text-white" />
 								</div>
 								
-								<h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+								<h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-700 transition-colors">
 									{link.title}
 								</h3>
 								
-								<p className="text-gray-600 leading-relaxed">
+								<p className="text-gray-600 leading-relaxed text-justify">
 									{link.description}
 								</p>
 								
-								<div className="flex items-center mt-6 text-blue-600 font-medium group-hover:translate-x-2 transition-transform">
+								<div className="flex items-center mt-6 text-primary-600 font-medium group-hover:translate-x-2 transition-transform">
 									Learn More
 									<ChevronRight className="ml-2 w-4 h-4" />
 								</div>
