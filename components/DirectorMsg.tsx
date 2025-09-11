@@ -7,13 +7,8 @@ const DirectorMsg = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-                  <Users className="w-16 h-16 text-white" />
-                </div>
-              </div>
+          <div className="relative" style={{backgroundImage: 'url(/director.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="aspect-square  rounded-2xl overflow-hidden">
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center">
               <Award className="w-12 h-12 text-yellow-800" />

@@ -12,7 +12,6 @@ export default function AboutPage() {
           <div className="w-24 h-1 bg-primary-700 mx-auto"></div>
         </div>
       </section>
-
       {/* Main Content */}
       <section className="pt-16 pb-8 px-6">
         <div className="max-w-4xl mx-auto">
@@ -55,6 +54,9 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+          
+          <div className="relative text-white py-56 px-6 mb-16" style={{backgroundImage: 'url(/delegation.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+          </div>
 
           {/* Our Legacy */}
           <div className="mb-16">
@@ -87,6 +89,9 @@ export default function AboutPage() {
                 HUMUN builds upon <span className="text-primary-700 font-semibold">eight years</span> of experience, innovation, and dedication to creating {"Pakistan's"} premier Model United Nations experience.
               </p>
             </div>
+          </div>
+          
+          <div className="relative text-white py-56 px-6 mb-16" style={{backgroundImage: 'url(/stall.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
           </div>
 
           {/* Statistics */}
