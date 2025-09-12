@@ -49,7 +49,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link href={REGISTRATION_LINK} target="blank">
+            <Link href="/register" target="blank">
               <button className="bg-gradient-to-r from-primary-800 to-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 cursor-pointer">
                 Register Now
               </button>

@@ -36,7 +36,7 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href={REGISTRATION_LINK} target='_blank'>
+            <Link href="/register" target='_blank'>
               {/* <button className="group bg-gradient-to-r from-primary-800 to-primary-800 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center"> */}
               <button className="group bg-gradient-to-r from-primary-800 to-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center cursor-pointer">
                 Register Now

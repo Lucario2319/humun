@@ -26,7 +26,7 @@ const CommitteesPage: React.FC = () => {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Join prestigious committees and engage in diplomatic discussions that shape our world. 
-            Each committee offers unique challenges and opportunities for meaningful debate.
+            Each committee, with its unique topic, offers challenges and opportunities for meaningful debate.
           </p>
         </header>
 

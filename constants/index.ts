@@ -46,21 +46,21 @@ export const COMMITTEE_DATA: Committee[] = [
   {
     id: 'unsc',
     name: 'United Nations Security Council',
-    description: 'Addressing global security threats and maintaining international peace',
+    description: 'The Last Drop',
     theme: 'Security & Conflict Resolution',
     backgroundImage: '/images/unsc.jpg'
   },
   {
     id: 'disec',
     name: 'Disarmament and International Security Committee',
-    description: 'Tackling nuclear proliferation and arms control challenges',
+    description: 'The Weaponization of Mis-Information',
     theme: 'Security & Conflict Resolution',
     backgroundImage: '/images/disec.jpg'
   },
   {
     id: 'specpol',
     name: 'Special Political and Decolonization Committee',
-    description: 'Strengthening peacekeeping and decolonization efforts',
+    description: 'Who Belongs? Identity Politics and the Surge of Nationalist Extremism',
     theme: 'Security & Conflict Resolution',
     backgroundImage: '/images/specpol.jpg'
   },
@@ -69,14 +69,14 @@ export const COMMITTEE_DATA: Committee[] = [
   {
     id: 'sochum',
     name: 'Social, Humanitarian, and Cultural Committee',
-    description: 'Addressing social, humanitarian, and cultural challenges faced by the global community. ',
+    description: 'Modern Day Concentration Camps - Legality of Migrant Jails',
     theme: 'Human Rights & Social Issues',
     backgroundImage: '/images/sochum.jpg'
   },
   {
     id: 'unwomen',
     name: 'United Nations Entity for Gender Equality and the Empowerment of Women',
-    description: 'Dedicated to accelerating progress on gender equality and the empowerment of women and girls',
+    description: 'Revival Of Matriarchal Societies',
     theme: 'Human Rights & Social Issues',
     backgroundImage: '/images/unwomen.jpg'
   },
@@ -84,14 +84,14 @@ export const COMMITTEE_DATA: Committee[] = [
   {
     id: 'interpol',
     name: 'International Criminal Police Organization',
-    description: 'Network for international police cooperation to combat transnational crime',
+    description: 'Combatting the Rise of Non-State Paramilitary and Insurgent Forces',
     theme: 'Global Crime and Legal',
     backgroundImage: '/images/interpol.jpg'
   },
   {
     id: 'icj',
     name: 'International Court of Justice',
-    description: 'Cordinating international law and resolving legal disputes between states',
+    description: 'Blood and Sand : A Struggle in the Sahara',
     theme: 'Global Crime and Legal',
     backgroundImage: '/images/icj.jpg'
   },
@@ -100,7 +100,7 @@ export const COMMITTEE_DATA: Committee[] = [
   {
     id: 'ecofin',
     name: 'Economic and Financial Affairs Council',
-    description: 'Promoting sustainable development and economic cooperation in the EU',
+    description: 'Formalizing International Carbon Credit Markets',
     theme: 'Economic & Development',
     backgroundImage: 'https://images.shutterstock.com/image-photo/arctic-landscape-polar-bears-ice-600nw-1234567123.jpg'
   },
@@ -108,36 +108,36 @@ export const COMMITTEE_DATA: Committee[] = [
   {
     id: 'pna',
     name: 'Pakistan National Assembly - Prime Minister\'s Crisis Cabinet',
-    description: 'Discussing national crises and formulating strategic responses for Pakistan',
+    description: 'Kargil 1999',
     theme: 'Pakistan',
     backgroundImage: '/images/pna.jpg'
   },
   // Crisis
   {
     id: 'crisis1',
-    name: 'Crisis 1',
-    description: '1917: Curtains on the Western Front',
+    name: '1917: Curtains on the Western Front',
+    description: '',
     theme: 'Crisis',
     backgroundImage: '/images/crisis1.jpg'
   },
   {
     id: 'crisis2',
-    name: 'Crisis 2',
-    description: 'The Naxalite Uprising : The Emergency (1965-75)',
+    name: 'The Naxalite Uprising : The Emergency (1965-75)',
+    description: '',
     theme: 'Crisis',
     backgroundImage: '/images/crisis2.jpg'
   },
   {
     id: 'crisis3',
-    name: 'Crisis 3',
-    description: 'After The War',
+    name: 'After The War',
+    description: '',
     theme: 'Crisis',
     backgroundImage: '/images/crisis3.jpg'
   },
   {
     id: 'crisis4',
-    name: 'Crisis 4',
-    description: 'Neither Settler Nor Native : The 14th Amendment on Trial',
+    name: 'Neither Settler Nor Native : The 14th Amendment on Trial',
+    description: '',
     theme: 'Crisis',
     backgroundImage: '/images/crisis4.jpg'
   }
