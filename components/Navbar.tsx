@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X, Globe } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { REGISTRATION_LINK } from "@/constants";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link href="/register">
+            <Link href={REGISTRATION_LINK} target="blank">
               <button className="bg-gradient-to-r from-primary-800 to-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 cursor-pointer">
                 Register Now
               </button>
@@ -84,7 +85,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <Link href="/register" onClick={() => setIsOpen(false)}>
+              <Link href={REGISTRATION_LINK} target="blank" onClick={() => setIsOpen(false)}>
                 <button className="w-full mt-2 bg-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-800 transition-colors">
                   Register Now
                 </button>

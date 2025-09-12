@@ -1,3 +1,4 @@
+import { REGISTRATION_LINK } from '@/constants';
 import { Calendar, ChevronRight } from 'lucide-react';
 import Link from "next/link";
 
@@ -35,15 +36,15 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link href="register">
+            <Link href={REGISTRATION_LINK} target='_blank'>
               {/* <button className="group bg-gradient-to-r from-primary-800 to-primary-800 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center"> */}
-              <button className="group bg-gradient-to-r from-primary-800 to-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center">
+              <button className="group bg-gradient-to-r from-primary-800 to-primary-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 hover:shadow-2xl flex items-center cursor-pointer">
                 Register Now
                 <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </Link>
-            <Link href="about">
-              <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/20 transition-all transform hover:scale-105">
+            <Link href="/about">
+              <button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/20 transition-all transform hover:scale-105 cursor-pointer">
                 Learn More
               </button>
             </Link>
