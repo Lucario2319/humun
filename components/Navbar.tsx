@@ -29,7 +29,7 @@ const Navbar = () => {
             {/*  Logo Image */}
             <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
               <Image
-                src="/logo.jpg" // must be inside /public
+                src="/logo1.png" // must be inside /public
                 alt="HUMUN Logo"
                 fill
                 className="object-contain" // keeps aspect ratio, no stretching
