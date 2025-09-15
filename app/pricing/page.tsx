@@ -13,7 +13,7 @@ export default function PricingPage() {
   useEffect(() => {
     const now = new Date();
     setIsEarlyBird(now < earlyBirdEndDate);
-  }, []);
+  }, [earlyBirdEndDate]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -227,7 +227,7 @@ export default function PricingPage() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">What's Included</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-3">{"What's"} Included</h4>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-primary-600 mr-2">•</span>

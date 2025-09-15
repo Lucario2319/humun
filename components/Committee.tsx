@@ -1,7 +1,6 @@
 import { COMMITTEE_DATA } from '@/constants';
 import { Committee } from '@/types';
 import { CommitteeSection } from '@/components/CommitteeSection';
-import Link from 'next/link';
 
 // Main Committees Page Component
 const CommitteesPage: React.FC = () => {

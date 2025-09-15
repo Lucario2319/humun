@@ -1,4 +1,4 @@
-import { Users, Award } from 'lucide-react';
+import { Award } from 'lucide-react';
 
 // Director Message Component
 const DirectorMsg = () => {
