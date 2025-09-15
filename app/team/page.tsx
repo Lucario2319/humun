@@ -1,6 +1,9 @@
 import Image from "next/image";
 
-// Example data — replace with your actual team members
+// Remove comments in TEAM_DATA when all pictures are available
+// Whenever a picture becomes available, ensure it's placed in the public/ directory with the correct filename
+// refer to TEAM_DATA below for filenames
+// Simply uncomment the respective object in the array once picture has been placed in public folder
 const TEAM_DATA = [
   {
     role: "President",
@@ -24,8 +27,28 @@ const TEAM_DATA = [
   // },
   // {
   //   role: "Under-Secretary General",
-  //   name: "John Doe",
+  //   name: "Yusha Khalid",
   //   image: "/undersec1.jpg",
+  // },
+   //   role: "Under-Secretary General",
+  //   name: "Misha Asim",
+  //   image: "/undersec2.jpg",
+  // },
+  //   role: "Under-Secretary General",
+  //   name: "Rana Mohammad Sarib Khan",
+  //   image: "/undersec3.jpg",
+  // },
+  //   role: "Deputy Director General",
+  //   name: "Mysha Zulfiqar",
+  //   image: "/ddg1.jpg",
+  // },
+  //   role: "Deputy Director General",
+  //   name: "Mubashir Anees",
+  //   image: "/ddg2.jpg",
+  // },
+  //   role: "Deputy Director General",
+  //   name: "Nabiha Sulman",
+  //   image: "/ddg3.jpg",
   // },
 ];
 
