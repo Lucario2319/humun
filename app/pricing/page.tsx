@@ -21,7 +21,7 @@ export default function PricingPage() {
       <section
         className="relative text-white py-24 px-6"
         style={{
-          backgroundImage: "url(/pricing.jpg)",
+          backgroundImage: "url(/pricingbg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

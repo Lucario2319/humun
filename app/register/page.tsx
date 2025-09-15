@@ -11,7 +11,7 @@ export default function RegisterPage() {
       <section
         className="relative text-white py-24 px-6"
         style={{
-          backgroundImage: "url(/registration_form.jpg)",
+          backgroundImage: "url(/registerbg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

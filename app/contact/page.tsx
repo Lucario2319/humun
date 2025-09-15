@@ -7,7 +7,7 @@ export default function ContactPage() {
       <section
         className="relative text-white py-24 px-6"
         style={{
-          backgroundImage: "url(/contact_us.jpg)",
+          backgroundImage: "url(/contactbg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
