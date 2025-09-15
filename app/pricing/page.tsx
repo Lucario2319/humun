@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function PricingPage() {
   // set your early bird deadline here
-  const earlyBirdEndDate = new Date("2025-08-28");
+  const earlyBirdEndDate = new Date("2025-09-22");
 
   const [isEarlyBird, setIsEarlyBird] = useState(true);
 

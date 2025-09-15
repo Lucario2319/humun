@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { REGISTRATION_LINK } from "@/constants";
+import Image from "next/image"; // ✅ import Next.js Image
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,16 +24,23 @@ const Navbar = () => {
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* Logo + Title */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-              <Globe className="w-6 h-6 text-white" />
+            {/*  Logo Image */}
+            <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
+              <Image
+                src="/logo.jpg" // must be inside /public
+                alt="HUMUN Logo"
+                fill
+                className="object-contain" // keeps aspect ratio, no stretching
+                priority // loads early since it's in the navbar
+              />
             </div>
+
             <div className="flex flex-col leading-none">
               <h1 className="text-xl font-bold text-gray-900">HUMUN</h1>
               <p className="text-xs italic text-gray-500 -mt-1">Eighth Edition</p>
             </div>
-            {/* <h1 className="text-xl font-bold text-gray-900">HUMUN</h1> */}
           </div>
 
           {/* Desktop Navigation */}
@@ -54,7 +62,7 @@ const Navbar = () => {
               <button className="bg-gradient-to-r from-primary-800 to-primary-700 text-white px-4 py-2 rounded-lg font-medium hover:from-yellow-700 hover:to-yellow-900 transition-all transform hover:scale-105 cursor-pointer">
                 Register Now
               </button>
-            </Link>  
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}

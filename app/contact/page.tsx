@@ -55,15 +55,15 @@ export default function ContactPage() {
           <div className="grid gap-4 md:grid-cols-3 max-w-3xl mx-auto">
             <div className="bg-white shadow-md rounded-lg p-4">
               <p className="font-semibold text-gray-900">Mahrukh Usmani</p>
-              <p className="text-gray-600">+92 331 3788550</p>
+              <p className="text-gray-600">+92 315 8224303</p>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4">
               <p className="font-semibold text-gray-900">Soha Naveed</p>
-              <p className="text-gray-600">+92 311 3788550</p>
+              <p className="text-gray-600">+92 305 2014121</p>
             </div>
             <div className="bg-white shadow-md rounded-lg p-4">
               <p className="font-semibold text-gray-900">Ghos Usmani</p>
-              <p className="text-gray-600">+92 336 3788550</p>
+              <p className="text-gray-600">+92 308 2527562</p>
             </div>
           </div>
         </section>
