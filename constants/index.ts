@@ -1,4 +1,4 @@
-import { Globe, Calendar, Users, Award } from 'lucide-react';
+import { Globe, Calendar, Users, DollarSign } from 'lucide-react';
 import { CommitteeInfoLink, ColorClasses, Committee } from "@/types";
 
 export const REGISTRATION_LINK = "https://forms.gle/DSncQ5Q43vNgHfKB6";
@@ -26,10 +26,10 @@ export const QUICK_LINKS: CommitteeInfoLink[] = [
         color: "green"
     },
     {
-        title: "Resources",
-        description: "Study guides, position papers, and prep materials",
-        icon: Award,
-        href: "resources",
+        title: "Pricing",
+        description: "Transparent pricing for all attendees",
+        icon: DollarSign,
+        href: "pricing",
         color: "orange"
     }
   ];

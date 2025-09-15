@@ -3,19 +3,28 @@ import { MapPin, Mail, Phone } from "lucide-react";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-purple-50 py-16 px-6 flex items-center">
-      <div className="max-w-4xl mx-auto text-center space-y-12">
-        {/* Page Header */}
-        <header className="space-y-4">
-          <h1 className="text-5xl font-bold text-gray-900">
-            Contact <span className="text-primary-700">Us</span>
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+    <div className="min-h-screen">
+      <section
+        className="relative text-white py-24 px-6"
+        style={{
+          backgroundImage: "url(/contact_us.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-primary-600/30"></div>
+        <div className="relative max-w-5xl mx-auto text-center">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6">Contact Us</h1>
+          <div className="w-24 h-1 bg-primary-700 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-100 max-w-2xl mx-auto">
             We’d love to hear from you! Whether you have questions or need more
             details, reach out using the information below.
           </p>
-        </header>
+        </div>
+      </section>
+      <div className="bg-gradient-to-br from-gray-50 to-purple-50 py-16 px-6 flex items-center">
 
+      <div className="max-w-4xl mx-auto text-center space-y-12">
         {/* Address */}
         <section className="space-y-4">
           <div className="flex justify-center items-center gap-2 text-lg text-gray-800 font-semibold">
@@ -70,8 +79,9 @@ export default function ContactPage() {
             allowFullScreen
             loading="lazy"
             className="rounded-lg shadow-lg"
-          ></iframe>
+            ></iframe>
         </section>
+      </div>
       </div>
     </div>
   );

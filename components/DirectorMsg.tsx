@@ -8,7 +8,7 @@ const DirectorMsg = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative" style={{backgroundImage: 'url(/director.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
-            <div className="aspect-square  rounded-2xl overflow-hidden">
+            <div className="aspect-square rounded-2xl overflow-hidden">
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center">
               <Award className="w-12 h-12 text-yellow-800" />
@@ -17,7 +17,7 @@ const DirectorMsg = () => {
           
           {/* Content */}
           <div>
-            <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center px-4 py-2 bg-primary-50 text-primary-600 rounded-full text-sm font-medium mb-6">
               Message from the President
             </div>
             
@@ -55,7 +55,7 @@ const DirectorMsg = () => {
             
             <div>
               <p className="font-semibold text-gray-900 text-lg">Mahrukh Usmani</p>
-              <p className="text-blue-600 font-medium">President HUMUN VIII</p>
+              <p className="text-primary-700 font-medium">President HUMUN VIII</p>
               <p className="text-gray-600">Social Development and Policy, Class of 2026</p>
             </div>
           </div>
