@@ -49,7 +49,7 @@ export default function RegisterPage() {
         >
           Loading…
         </iframe>
-      )}
+      )}  
 
       {/* Back button */}
       {selection && (
