@@ -22,7 +22,7 @@ export const QUICK_LINKS: CommitteeInfoLink[] = [
         title: "Registration",
         description: "Secure your spot in this premier conference",
         icon: Users,
-        href: REGISTRATION_LINK,
+        href: "register",
         color: "green"
     },
     {
