@@ -1,14 +1,6 @@
 import Link from "next/link";
-import { CallToActionProps } from "@/types";
-import { REGISTRATION_LINK } from "@/constants";
 
-export const CallToAction: React.FC<CallToActionProps> = ({
-  title = "Ready to Make Your Mark?",
-  description = "Choose your committee and prepare to engage in diplomatic excellence at HUMUN",
-  buttonText = "Register Now",
-  buttonLink = "/register",
-  className = "",
-}) => {
+export const CallToAction = () => {
   return (
     <footer className="text-center space-y-4 pt-12 pb-8 sm:pb-12 md:pb-16 border-t border-gray-200">
         <h3 className="text-2xl font-semibold text-gray-900">Ready to Make Your Mark?</h3>

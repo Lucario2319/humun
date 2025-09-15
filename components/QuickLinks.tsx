@@ -1,5 +1,5 @@
 import { ChevronRight } from 'lucide-react';
-import { QUICK_LINKS, COLOR_CLASSES } from '@/constants';
+import { QUICK_LINKS } from '@/constants';
 
 const QuickLinks = () => {
   	return (

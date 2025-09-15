@@ -1,4 +1,3 @@
-import { REGISTRATION_LINK } from '@/constants';
 import { Calendar, ChevronRight } from 'lucide-react';
 import Link from "next/link";
 
@@ -21,7 +20,7 @@ const HeroSection = () => {
           {/* Event Badge */}
           <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium mb-8">
             <Calendar className="w-4 h-4 mr-2" />
-            October 15-17, 2025 • University Campus
+            October 24-26, 2025 • University Campus
           </div>
           
           {/* Main Heading */}
