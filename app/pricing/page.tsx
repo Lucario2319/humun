@@ -276,7 +276,7 @@ export default function PricingPage() {
                 humun@habib.edu.pk
               </a>
               <a href="tel:+92-XXX-XXXXXXX" className="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:border-primary-500 hover:text-primary-600 transition-colors duration-200">
-                +92-XXX-XXXXXXX
+                +92-308-2527562
               </a>
             </div>
           </div>
